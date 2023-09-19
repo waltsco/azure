@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'geohut'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BE830C7E8FF746A6B5FA76570C60BA18 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
